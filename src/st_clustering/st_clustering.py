@@ -486,7 +486,7 @@ class ST_HDBSCAN(hdbscan.HDBSCAN):
             p=None,  #euclidean 
             algorithm='best',
             leaf_size=40,
-            memory=Memory(cachedir=None, verbose=0),
+            memory=Memory(memory=None, verbose=0),
             approx_min_span_tree=True,
             gen_min_span_tree=False,
             core_dist_n_jobs=4,
